@@ -1,0 +1,62 @@
+
+body {
+  height: 100vh;
+  background: #dad2d0;
+}
+.container {
+  width: 325px;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+.left-corner {
+  border-bottom-left-radius: 5px;
+}
+.right-corner {
+  border-bottom-right-radius: 5px;
+}
+
+.col-3:hover, .col-6:hover {
+  opacity: .9;
+  cursor:pointer;
+}
+
+.screen {
+  background-color: #143642;
+}
+.number {
+  background-color: #DAD2D8;
+}
+.col-3, .col-6 {
+  transition: .5s;
+ 
+}
+
+.number:hover {
+  background: #e1d8de;
+}
+
+button {
+  background-color: transparent;
+}
+
+.operator {
+  background-color: #0F8B8D;
+}
+
+.yellow {
+  background-color: #EC9A29;
+}
+
+.red {
+  background-color: #A8201A
+}
+
+.calculator {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.443);
+  
+  
+}
